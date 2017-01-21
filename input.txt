@@ -1,0 +1,12 @@
+sub:a:2:1
+sub:b:1:1
+sub:c:2:2
+sub:d:3:2
+sub:e:2:3
+sub:f:3:5
+sub:g:4:7
+sub:h:5:2
+sub:i:6:4
+sub:j:7:3
+sub:k:8:10
+params:10:4:30
