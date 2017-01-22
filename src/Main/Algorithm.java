@@ -56,7 +56,7 @@ public class Algorithm {
 				{
 					currentProcessedSemester.addSubject(bestFittingSubject);
 					currentProcessedSemester.setAvaliableDays(currentProcessedSemester.getAvaliableDays() - bestFittingSubject.getDaysOfLearning());
-					gainedPoints+=bestFittingSubject.getDaysOfLearning();
+					gainedPoints+=bestFittingSubject.getPoints();
 					bestFittingSubject.subjectDone = true;
 					//System.out.println("-----------------------------------");
 				}
