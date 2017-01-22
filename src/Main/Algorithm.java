@@ -27,7 +27,7 @@ public class Algorithm {
 		{
 			currentProcessedSemester = semestersList.get(indexOfCurrentSem);
 			indexOfCurrentSem++;
-			if(indexOfCurrentSem >= semestersList.size())
+			if(indexOfCurrentSem > semestersList.size())
 			{
 				System.out.println("Znalezienie planu dla studenta nie powiodło się");
 				break;
