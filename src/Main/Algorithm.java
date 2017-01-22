@@ -25,13 +25,13 @@ public class Algorithm {
 		}
 		while(gainedPoints < numberOfRequiredPoints)
 		{
-			currentProcessedSemester = semestersList.get(indexOfCurrentSem);
-			indexOfCurrentSem++;
-			if(indexOfCurrentSem > semestersList.size())
+			if(indexOfCurrentSem >= semestersList.size())
 			{
 				System.out.println("Znalezienie planu dla studenta nie powiodło się");
 				break;
 			}
+			currentProcessedSemester = semestersList.get(indexOfCurrentSem);
+			indexOfCurrentSem++;
 			while(currentProcessedSemester.getAvaliableDays() > 0)
 			{
 				Subject bestFittingSubject = null;
